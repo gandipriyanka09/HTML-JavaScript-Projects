@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendations</title>
+</head>
+<body>
+    <header>
+        <h1>Book Recommendations</h1>
+    </header>
+    <main>
+        <div class="book">
+            <h2>Title of Book 1</h2>
+            <p>Author: Author Name</p>
+            <p>Description of Book 1</p>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="book">
+            <h2>Title of Book 2</h2>
+            <p>Author: Author Name</p>
+            <p>Description of Book 2</p>
+            <a href="#">Buy Now</a>
+        </div>
+        <!-- More book recommendations can be added here -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Book Recommendations</p>
+    </footer>
+</body>
+</html>

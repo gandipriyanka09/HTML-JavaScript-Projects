@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/TaskList.css">
+    <title>Task Application</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Application</h1>
+        <div>
+            <label for="taskInput">Add Task:</label>
+            <input type="text" id="taskInput" />
+            <button onclick="addTask()">Add Task</button>
+            
+        </div>
+        <div>
+            <button onclick="displayTask()">Display Task</button>
+            <button onclick="removeTask()">Remove Task</button>
+            <button onclick="quitApp()">Quit App</button>
+            
+            
+            
+        </div>
+        <div id="taskList"></div>
+    </div>
+    <script src = '/TaskListApp.js'></script>
+    
+</body>
+</html>
+
